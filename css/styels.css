@@ -51,11 +51,14 @@ img {
 
 /*Header*/
 
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
     min-height: 72px;
-    border-bottom: 1px solid #E7E9FC;
 }
  
 .nav-logo {
@@ -247,14 +250,19 @@ img {
 }
 
 .team-section-title {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     color: var(--secondary-color);
     font-size: 20px;
     line-height: 24px;
 }
 
+.team-section-descrow {
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+
 .team-section-descr {
-    margin-bottom: 32px;
+    margin-bottom: 0px;
     font-size: 16px;
     line-height: 24px;
 }
@@ -265,7 +273,7 @@ img {
   
 /*Footer*/
 
-.site-footer {
+.footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -296,7 +304,7 @@ img {
 
 /*Portfolio section*/
 
-.portfolio-container {
+.portfolio-section {
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -329,21 +337,21 @@ img {
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
-.portfolio-items .item {
-    margin-bottom: 48px;
+.portfolio-features {
     background-color: var(--basic-background);
-    border: 1px solid #E7E9FC;
-    }
-
-.portfolio-img {
-    margin-bottom: 32px;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .portfolio-title {
-    margin-left: 16px;
     margin-bottom: 8px;
     color: var(--brand-color);
     font-weight: 500;
@@ -352,8 +360,7 @@ img {
 }
 
 .portfolio-descrfiltr {
-    margin-left: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
     font-size: 16px;
     line-height: 24px;
 }
