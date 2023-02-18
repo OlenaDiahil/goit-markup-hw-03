@@ -245,19 +245,15 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-section-img {
-    margin-bottom: 32px;
-}
-
 .team-section-title {
-    margin-bottom: 0px;
+    margin-bottom: 8px;
     color: var(--secondary-color);
     font-size: 20px;
     line-height: 24px;
 }
 
 .team-section-descrow {
-    padding-top: 8px;
+    padding-top: 32px;
     padding-bottom: 32px;
 }
 
